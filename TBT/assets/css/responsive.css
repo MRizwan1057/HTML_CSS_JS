@@ -1,0 +1,251 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .hero_heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .hero_text h3 {
+    font-size: 1.5rem;
+  }
+  .theme_btn {
+    padding: 1rem 0.8rem;
+  }
+
+  .theme_heading {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 1.25rem 0;
+  }
+
+  .type_heading {
+    font-size: 2rem;
+    line-height: 2.125rem;
+    padding: 2rem 0;
+  }
+
+  .white_heading {
+    font-size: 2.5rem;
+    line-height: 2.375rem;
+    padding: 1.5rem 0;
+  }
+
+  .form-inline {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .white_heading,
+  .theme_heading,
+  .type_heading {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding: 1rem 0;
+  }
+
+  .hero_text h3 {
+    font-size: 1.3rem;
+  }
+
+  .heroSection .container-fluid .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero_icon {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    margin: 2rem;
+  }
+  .service_card h3 {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .process_div h1 {
+    font-size: 2.1rem;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .service_card p {
+    max-height: unset;
+  }
+
+  .p15 {
+    font-size: 0.8rem;
+  }
+
+  .black_heading {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .cloud_text {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .method_content h4 {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .tech_types h4,
+  .industry_serve h4 {
+    font-size: 0.8rem;
+  }
+
+  .stack_types h4 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .footer_bottom_list li {
+    display: inline;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .hero_icon {
+    gap: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .hero_heading {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+
+  .process_div h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .service_card h3,
+  .service_card p {
+    text-align: center;
+  }
+  .serviceSection {
+    background-size: unset;
+  }
+  .black_heading {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .white_heading,
+  .theme_heading,
+  .type_heading {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .team_text {
+    text-align: center;
+  }
+
+  .mycard.service_card {
+    margin-bottom: 6rem;
+  }
+
+  .staff_text {
+    text-align: center;
+  }
+
+  ul.footer_menu {
+    margin-bottom: 4rem;
+  }
+
+  .footer_menu li {
+    margin-right: 1rem;
+  }
+  .footer_logo {
+    text-align: center;
+  }
+  .subscribe_div {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .footer_icons {
+    text-align: center;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header_btn {
+    display: none;
+  }
+
+  .hero_text h3 {
+    font-size: 1.1rem;
+  }
+  .hero_heading {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .black_heading {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .white_heading,
+  .theme_heading,
+  .type_heading {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    padding: 2.2rem 0;
+    text-align: center;
+  }
+  .process_div h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .stack_types h4 {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .stack_types .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer_menu li {
+    margin-right: 1rem;
+    font-size: 0.59rem;
+  }
+
+  .form-inline {
+    display: block;
+  }
+
+  .footer_bottom_list li {
+    display: block;
+    text-align: 0.1rem;
+    text-align: center;
+  }
+  .testim_inner {
+    width: unset;
+  }
+}

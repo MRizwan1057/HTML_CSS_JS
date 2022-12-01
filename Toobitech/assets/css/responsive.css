@@ -1,0 +1,136 @@
+@media only screen and (max-width: 575px) {
+  .main_section {
+    background-image: none;
+    background-color: #1874ba;
+  }
+
+  .navbar-nav {
+    margin-top: 2rem;
+    background-color: skyblue;
+    text-align: center;
+  }
+  .hero_img_div img {
+    max-width: 50%;
+    max-height: 40%;
+    object-fit: cover;
+    text-align: center;
+  }
+  .hero_social_icon {
+    display: none;
+  }
+  .row {
+    text-align: center !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  .container-fluid {
+    max-width: 100vw;
+  }
+  .soft_dev-services figure {
+    text-align: center;
+  }
+
+  .soft_dev-services .bg {
+    margin: 2rem;
+  }
+
+  .form-inline {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    position: absolute;
+  }
+  .main_section {
+    background-image: none;
+    background-color: #1874ba;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .cloud_slider_inner .slick-track {
+    max-width: 600px;
+  }
+
+  .navbar-nav {
+    margin-top: 2rem;
+    background-color: skyblue;
+    text-align: center;
+  }
+  .hero_img_div img {
+    max-width: 66%;
+    max-height: 60%;
+    object-fit: cover;
+    text-align: center;
+    padding-top: 19rem;
+  }
+  .hero_social_icon {
+    display: none;
+  }
+
+  .hero_img_div {
+    position: absolute;
+    bottom: 90%;
+    left: 0;
+    right: 0;
+    transform: translate(100%, 50%);
+    text-align: center;
+  }
+  .about_img img {
+    margin-bottom: 4rem;
+  }
+  .row {
+    text-align: center !important;
+  }
+
+  h1 {
+    font-size: 35px !important;
+  }
+
+  .soft_dev-services figure {
+    text-align: center;
+  }
+
+  .soft_dev-services .bg {
+    margin: 2rem;
+  }
+
+  .service_section {
+    background-size: 100% 26%;
+  }
+  .service_img_div a {
+    margin-bottom: 3rem;
+  }
+
+  .team_aug_img_div img {
+    margin-bottom: 4rem;
+  }
+  .methods_list .row {
+    text-align: start !important;
+  }
+  .tech_section img {
+    margin-bottom: 4rem;
+  }
+  .prodcut_div {
+    margin-bottom: 5rem;
+  }
+
+  .footer_menu {
+    margin: 3rem 0;
+  }
+
+  .footer_menu li {
+    margin: 0.5rem;
+  }
+  .footer_bottom_div {
+    flex-direction: column;
+  }
+  .footer_icons {
+    text-align: center;
+  }
+}

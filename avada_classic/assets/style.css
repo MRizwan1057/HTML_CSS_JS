@@ -1,0 +1,150 @@
+.main {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0.5, 0.5, 0.5, 0.5)
+    ),
+    url("./images/banner-12.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12%;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color: rgb(96, 37, 37);
+  opacity: 0.4;
+}
+
+.main h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-top: 0px;
+  margin-right: 15%;
+  margin-bottom: 30px;
+  margin-left: 15%;
+}
+.main p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-right: 15%;
+  margin-bottom: 30px;
+  margin-left: 15%;
+}
+
+.nav-link {
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: #fff;
+  background-color: #53b96a;
+}
+
+.herobtn {
+  border-radius: 2px 2px 2px 2px;
+  font-size: 20px;
+  line-height: 26px;
+  padding-top: 20px;
+  padding-right: 55px;
+  padding-bottom: 20px;
+  padding-left: 55px;
+  letter-spacing: 0px;
+  margin: 1.5rem;
+}
+
+.section--skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 30px;
+}
+
+.section--skills h1 {
+  font-size: 42px;
+  font-family: Roboto Slab, arial, helvetica;
+  margin-top: 0px;
+  margin-right: 15%;
+  margin-bottom: 30px;
+  margin-left: 15%;
+}
+
+.section--skills p {
+  margin-top: 0px;
+  margin-right: 15%;
+  margin-bottom: 30px;
+  margin-left: 15%;
+}
+
+.section--skills .row {
+  border-bottom: 2px solid lightgrey;
+}
+
+.card--section {
+  margin-bottom: 100px;
+}
+.client--section {
+  margin: 100px 0;
+}
+
+.card_div {
+  position: relative;
+  margin: 2.5rem;
+}
+.card_div::after {
+  content: "";
+  position: absolute;
+  /* background-color: #0d1e7446; */
+  width: 7px;
+  height: 50%;
+  bottom: 33px;
+  right: -22%;
+  border-right: 5px solid rgb(112, 94, 94);
+}
+.last_div::after {
+  content: "";
+  display: none;
+}
+
+.client--section img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.client--section h1 {
+  height: auto;
+  font-size: 34px;
+  font-family: Roboto Slab, arial, helvetica;
+}
+.client-bg {
+  background-color: #f0f8f2;
+}
+
+.client-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 100px;
+}
+.client-text h3 {
+  font-family: Roboto Slab, arial, helvetica;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.btnclient {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
