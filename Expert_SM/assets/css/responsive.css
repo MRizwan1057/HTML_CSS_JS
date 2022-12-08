@@ -1,0 +1,531 @@
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+@media only screen and (min-width: 1600px) {
+  .header .container {
+    max-width: 1500px;
+  }
+  .testim_container,
+  .ind_container {
+    max-width: 1500px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .heroHeading,
+  .heroHeading span {
+    font-size: 5rem;
+    line-height: 100px;
+  }
+
+  .white_headings {
+    font-size: 2.7rem;
+    line-height: 77px;
+  }
+  .mix_headings {
+    font-size: 3rem;
+    line-height: 70px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  .nav_btn {
+    font-size: 1rem;
+    line-height: 25px;
+    padding: 1rem 2rem;
+  }
+
+  .hero_text p {
+    font-size: 1.8rem;
+    line-height: 50px;
+  }
+
+  .normalP {
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+  }
+  ._hdng_p {
+    font-size: 1rem;
+    line-height: 50px;
+  }
+
+  ._img_p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .digital_text h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .accordion-heading {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .experts_Text_inner h3 {
+    font-size: 1.1rem;
+  }
+
+  .experts_Text_inner p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .need_top {
+    font-size: 2.7rem;
+  }
+  .qoute h1 {
+    font-size: 2.7rem;
+    line-height: 50px;
+  }
+
+  .footer_headings {
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-nav {
+    background: linear-gradient(94.39deg, #f41e57 20.23%, #fb5607 82.34%);
+    margin-bottom: 1rem;
+  }
+  .nav_btn {
+    display: none;
+  }
+  ul.navbar-nav.ml-auto:after {
+    display: none;
+  }
+  .heroHeading,
+  .heroHeading span {
+    font-size: 3.5rem;
+    line-height: 80px;
+  }
+
+  .white_headings {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  .mix_headings {
+    font-size: 2.6rem;
+    line-height: 60px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+
+  .nav_btn {
+    font-size: 0.8rem;
+    line-height: 30px;
+    padding: 0.8rem 2rem;
+  }
+
+  .hero_text p {
+    font-size: 1.4rem;
+    line-height: 40px;
+  }
+
+  .normalP {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+  ._hdng_p {
+    font-size: 0.9rem;
+    line-height: 33px;
+  }
+
+  ._img_p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .digital_text h3 {
+    font-size: 1.7rem;
+    line-height: 1rem;
+  }
+
+  .digital_text p,
+  .digital_text a {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .accordion-heading {
+    padding: 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .industry_section h4 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .experts_Text_inner h3 {
+    font-size: 0.8rem;
+  }
+
+  .experts_Text_inner p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .target_btn {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .need_top {
+    font-size: 1.9rem;
+  }
+
+  .qoute h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .qoute h5 {
+    font-size: 1rem;
+  }
+
+  .footer_headings {
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+
+  .footer p {
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+
+  .testim {
+    margin: 3rem 0;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .actual_form {
+    display: none;
+  }
+
+  .alter_form input[type="submit"] {
+    background: linear-gradient(180deg, #fb5607 0%, #ee2a7b 100%);
+    color: var(--var-white-color);
+  }
+  .navbar-nav {
+    background: linear-gradient(94.39deg, #f41e57 20.23%, #fb5607 82.34%);
+    margin-bottom: 1rem;
+  }
+
+  .nav_btn {
+    display: none;
+  }
+  .heroHeading,
+  .heroHeading span {
+    font-size: 2rem;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .white_headings {
+    font-size: 1.8rem;
+    line-height: 40px;
+    text-align: center;
+  }
+  .mix_headings {
+    font-size: 2rem;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+
+  .nav_btn {
+    font-size: 0.8rem;
+    line-height: 30px;
+    padding: 0.8rem 2rem;
+  }
+
+  .hero_text p {
+    font-size: 1.4rem;
+    line-height: 40px;
+  }
+  .interest_types {
+    margin-top: 4rem;
+  }
+
+  .normalP {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  ._hdng_p {
+    font-size: 0.8rem;
+    line-height: 27px;
+  }
+
+  ._img_p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .digital_text h3 {
+    font-size: 1.7rem;
+    line-height: 1rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .digital_text p,
+  .digital_text a {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .digital_img {
+    margin: 2rem 0;
+  }
+
+  .digital_section .digital_row {
+    flex-direction: column-reverse;
+  }
+
+  .accordion-heading {
+    padding: 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .approach_row .text-right,
+  .text-left,
+  .text-center {
+    text-align: center !important;
+  }
+
+  .industry_section h4 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .experts_Text_inner h3 {
+    font-size: 0.8rem;
+  }
+
+  .experts_Text_inner p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .target_btn {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .need_top {
+    font-size: 1.2rem;
+  }
+  .qoute {
+    text-align: center;
+  }
+
+  .qoute h1 {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  .qoute h5 {
+    font-size: 0.8rem;
+  }
+
+  .need_row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .footer_row {
+    text-align: center;
+  }
+  .footer_headings {
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid var(--var-accent-color);
+  }
+  .footer_bottom {
+    margin-top: 3rem 0;
+    border-top: 3px solid wheat;
+  }
+
+  .footer p {
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+  .testim {
+    margin: 3rem 0;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .alter_form input[type="submit"] {
+    background: linear-gradient(180deg, #fb5607 0%, #ee2a7b 100%);
+    color: var(--var-white-color);
+  }
+  .actual_form {
+    display: none;
+  }
+
+  .navbar-nav {
+    background: linear-gradient(94.39deg, #f41e57 20.23%, #fb5607 82.34%);
+    margin-bottom: 1rem;
+  }
+  .nav_btn {
+    display: none;
+  }
+  .heroHeading,
+  .heroHeading span {
+    font-size: 1.2rem;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .white_headings {
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+  }
+  .mix_headings {
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+
+  .hero_text p {
+    font-size: 1rem;
+    line-height: 40px;
+  }
+  .interest_types {
+    margin-top: 4rem;
+  }
+
+  .normalP {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  ._hdng_p {
+    font-size: 0.8rem;
+    line-height: 27px;
+  }
+
+  ._img_p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .digital_text h3 {
+    font-size: 1.3rem;
+    line-height: 1rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .digital_text p,
+  .digital_text a {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .digital_img {
+    margin: 2rem 0;
+  }
+
+  .digital_section .digital_row {
+    flex-direction: column-reverse;
+  }
+
+  .accordion-heading {
+    padding: 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .approach_row .text-right,
+  .text-left,
+  .text-center {
+    text-align: center !important;
+  }
+
+  .industry_section h4 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .experts_Text_inner h3 {
+    font-size: 0.8rem;
+  }
+
+  .experts_Text_inner p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .target_btn {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .interest_types {
+    flex-direction: column;
+  }
+
+  .need_top {
+    font-size: 1.2rem;
+  }
+  .qoute {
+    text-align: center;
+  }
+
+  .qoute h1 {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  .qoute h5 {
+    font-size: 0.8rem;
+  }
+
+  .need_row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .footer_row {
+    text-align: center;
+  }
+  .footer_headings {
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid var(--var-accent-color);
+  }
+  .footer_bottom {
+    margin-top: 3rem 0;
+    border-top: 3px solid wheat;
+  }
+
+  .footer p {
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+  .process_content img {
+    min-height: unset;
+    min-width: unset;
+  }
+  .testim {
+    margin: 3rem 0;
+  }
+}
